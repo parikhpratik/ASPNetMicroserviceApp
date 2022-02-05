@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Buildi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API Gateways", "API Gateways", "{865E7B36-682E-4231-86D5-0B42039ED8DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotAPIGateway", "API Gateways\OcelotAPIGateway\OcelotAPIGateway.csproj", "{2C3E385E-5EC2-4AF9-BA10-CBD6AD4E681C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotAPIGateway", "API Gateways\OcelotAPIGateway\OcelotAPIGateway.csproj", "{2C3E385E-5EC2-4AF9-BA10-CBD6AD4E681C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "API Gateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{8EE138AB-B076-4FCC-BA4D-DDB62949FBB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{2C3E385E-5EC2-4AF9-BA10-CBD6AD4E681C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C3E385E-5EC2-4AF9-BA10-CBD6AD4E681C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C3E385E-5EC2-4AF9-BA10-CBD6AD4E681C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE138AB-B076-4FCC-BA4D-DDB62949FBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE138AB-B076-4FCC-BA4D-DDB62949FBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE138AB-B076-4FCC-BA4D-DDB62949FBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE138AB-B076-4FCC-BA4D-DDB62949FBB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{4B401932-6811-4938-9960-E8372139B8D5} = {C0517B62-1C61-45F1-8E07-4BFFBCF58808}
 		{7581E3F3-9308-4CE0-9687-E99C826AECCA} = {76955F8A-9945-469E-8CFB-1E1BC25C6E3C}
 		{2C3E385E-5EC2-4AF9-BA10-CBD6AD4E681C} = {865E7B36-682E-4231-86D5-0B42039ED8DC}
+		{8EE138AB-B076-4FCC-BA4D-DDB62949FBB2} = {865E7B36-682E-4231-86D5-0B42039ED8DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD684A8F-8B5A-4866-BD84-8A31ECF3B0E9}
