@@ -69,10 +69,3 @@ volumes:
   portainer_data:
   postgres_Data:
   pgadmin_data:
-    
-
-
-
-
-
-
