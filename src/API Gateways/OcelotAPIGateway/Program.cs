@@ -20,20 +20,20 @@ namespace OcelotAPIGateway
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .UseSerilog(SeriLogger.Configure)
                 .ConfigureAppConfiguration((hostingcontet, config) =>
                 {
-                    config.AddJsonFile($"ocelot.{hostingcontet.HostingEnvironment.EnvironmentName}.json",true,true);
+                    config.AddJsonFile($"ocelot.{hostingcontet.HostingEnvironment.EnvironmentName}.json", true, true);
                 })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
                 })
-            .ConfigureLogging((hostingcontext, loggingBuilder) =>
-            {
-                loggingBuilder.AddConfiguration(hostingcontext.Configuration.GetSection("Logging"));
-                loggingBuilder.AddConsole();
-                loggingBuilder.AddDebug();
-            });
+                .UseSerilog(SeriLogger.Configure);
+            //.ConfigureLogging((hostingcontext, loggingBuilder) =>
+            //{
+            //    loggingBuilder.AddConfiguration(hostingcontext.Configuration.GetSection("Logging"));
+            //    loggingBuilder.AddConsole();
+            //    loggingBuilder.AddDebug();
+            //});
     }
 }
