@@ -45,7 +45,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{EF64
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetRunBasics", "WebApps\AspnetRunBasics\AspnetRunBasics.csproj", "{60C10891-F140-46B3-BA85-68045A981042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logging", "BuildingBlocks\Common.Logging\Common.Logging.csproj", "{D79F72C8-B1A3-4492-A3B7-49DAC68638EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Logging", "BuildingBlocks\Common.Logging\Common.Logging.csproj", "{D79F72C8-B1A3-4492-A3B7-49DAC68638EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStatus", "WebApps\WebStatus\WebStatus.csproj", "{D4842590-AF19-4A40-9BAA-5D064A0AB369}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +111,10 @@ Global
 		{D79F72C8-B1A3-4492-A3B7-49DAC68638EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79F72C8-B1A3-4492-A3B7-49DAC68638EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79F72C8-B1A3-4492-A3B7-49DAC68638EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4842590-AF19-4A40-9BAA-5D064A0AB369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4842590-AF19-4A40-9BAA-5D064A0AB369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4842590-AF19-4A40-9BAA-5D064A0AB369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4842590-AF19-4A40-9BAA-5D064A0AB369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +137,7 @@ Global
 		{8EE138AB-B076-4FCC-BA4D-DDB62949FBB2} = {865E7B36-682E-4231-86D5-0B42039ED8DC}
 		{60C10891-F140-46B3-BA85-68045A981042} = {EF64D329-D040-4172-A97E-BD066E2646EB}
 		{D79F72C8-B1A3-4492-A3B7-49DAC68638EE} = {76955F8A-9945-469E-8CFB-1E1BC25C6E3C}
+		{D4842590-AF19-4A40-9BAA-5D064A0AB369} = {EF64D329-D040-4172-A97E-BD066E2646EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD684A8F-8B5A-4866-BD84-8A31ECF3B0E9}
